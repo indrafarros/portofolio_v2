@@ -1,15 +1,17 @@
-$(document).ready(function(){
-    $('.navbar-toggler').click(function(){
-        $('.bx-menu').toggle('fast');
-        $('.bx-x').toggle('fast');
-    });
+// $(document).ready(function(){
+//     $('.navbar-toggler').click(function(){
+//         $('.bx-menu').toggle('fast');
+//         $('.bx-x').toggle('fast');
+//     });
 
-    $('p.nav-link').click(function(){
-        $('p.nav-link').removeAttr('Id');
-        $('p.nav-link').removeClass('active');
-        $(this).addClass('active');
-    });
-});
+//     $('p.nav-link').click(function(){
+//         $('p.nav-link').removeAttr('Id');
+//         $('p.nav-link').removeClass('active');
+//         $(this).addClass('active');
+//     });
+// })
+
+
 
 function display(elem){
     var org="#"+elem;
@@ -27,6 +29,9 @@ function display(elem){
             $('#work-container #game').addClass('hide-element');
             $('#work-container #web').addClass('hide-element');
             break; 
-        
+        case '#game':
+            $('#work-container #game').removeClass('hide-element');
+            $('#work-container #api').addClass('hide-element');
+            $('#work-container #web').addClass('hide-element');
     }
 }
