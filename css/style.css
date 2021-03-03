@@ -250,7 +250,7 @@ body{
 }
 
 
-.bxl-dribbble::after{
+.bx-mail-send::after{
     content: '';
     position: absolute;
     width: 5px;

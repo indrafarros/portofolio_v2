@@ -86,13 +86,14 @@
 
                 <div class="social-media col-2 col-md-2 pt-4 mt-3 pt-md-0 mt-md-0">
                     <li class="py-2">
-                        <i class='bx bxl-instagram'></i>
+                        <a href="https://www.linkedin.com/in/indrafarros/" class="text-dark" target="_blank" style="text-decoration:none"><i class='bx bxl-linkedin-square'></i></a>
                     </li>
                     <li class="py-2">
                         <a href="https://github.com/indrafarros" class="text-dark" target="_blank" style="text-decoration:none"><i class='bx bxl-github'></i></a>
                     </li>
                     <li class="py-2">
-                        <i class='bx bxl-dribbble'></i>
+                        <a href="mailto:indrafarros.fi@gmail.com" class="text-dark" target="_blank" style="text-decoration:none"><i class='bx bx-mail-send'></i></a>
+
                     </li>
                 </div>
                 <div class="col-10 col-sm-12 col-md-8 pt-5">
@@ -277,8 +278,7 @@
                             <img src="./images/mysql.png" width="14%"></img>
                         </p>
                         <div class="float-right mt-4">
-                            <div class="btn btn-lg btn-dark mt-3 px-4 mr-2">View</div>
-                            <div class="btn btn-lg btn-dark mt-3 px-4">View</div>
+                            <div class="btn btn-lg btn-dark mt-3 px-4"><a href="https://pet.indrafarros.my.id/" class="text-danger" style="text-decoration:none" target="_blank">View</a></div>
                         </div>
                     </div>
                     <div id="game" class="col-12 col-md-8 col-lg-5 p-5 m-4 border">
@@ -292,7 +292,8 @@
                             <img src="./images/css.png" width="14%"></img>
                             <img src="./images/btp.png" width="16%"></img>
                         </p>
-                        <div class="btn btn-lg btn-dark mt-3 px-4 float-right">View</div>
+                        <div class="btn btn-lg btn-dark mt-3 px-4 float-right"><a href="https://github.com/indrafarros/mycatering" class="text-danger" style="text-decoration:none" target="_blank">View</a></div>
+
                     </div>
                     <div id="api" class="col-12 col-md-8 col-lg-5 p-5 m-4 border">
                         <h4 class="text-center">Sistem Informasi Geografis</h4>
@@ -310,8 +311,7 @@
                             <img src="./images/mysql.png" width="14%"></img>
                         </p>
                         <div class="float-right mt-4">
-                            <div class="btn btn-lg btn-dark mt-3 px-4 mr-2">View</div>
-                            <div class="btn btn-lg btn-dark mt-3 px-4">View</div>
+                            <div class="btn btn-lg btn-dark mt-3 px-4"><a href="https://gis.indrafarros.my.id/" class="text-danger" style="text-decoration:none" target="_blank">View</a></div>
                         </div>
                     </div>
                     <div id="api" class="col-12 col-md-8 col-lg-5 p-5 m-4 border">
@@ -363,7 +363,7 @@
                         </div>
                         <div class="form-group">
                             <label for="msg">Message</label>
-                            <textarea name="msg" class="form-control" id="msg"></textarea>
+                            <textarea name="msg" class="form-control" id="msg" placeholder="Hi, ..."></textarea>
                         </div>
                         <div class="btn btn-dark">Submit</div>
                     </form>
@@ -376,8 +376,8 @@
         <div class="container-fluid py-3" style="background-color: #fed766 !important;">
             <div class="row">
                 <div class="foot-icon d-flex flex-row justify-content-center col-12 py-4">
-                    <li class="mx-3"><i class='bx bxl-github' style='color:#fe4a49'></i></li>
-                    <li class="mx-3"><i class='bx bxl-linkedin-square' style='color:#fe4a49'></i></li>
+                    <li class="mx-3"><a href="https://github.com/indrafarros" class="text-dark" target="_blank" style="text-decoration:none"><i class='bx bxl-github' style='color:#fe4a49'></i></a></li>
+                    <li class="mx-3"><a href="https://www.linkedin.com/in/indrafarros/" class="text-dark" target="_blank" style="text-decoration:none"><i class='bx bxl-linkedin-square' style='color:#fe4a49'></i></a></li>
                     <li class="mx-3"><i class='bx bxl-whatsapp' style='color:#fe4a49'></i></li>
                 </div>
                 <div class="copyright col-12 d-flex justify-content-center">
